@@ -1,0 +1,82 @@
+{
+  "Afghanistan": {
+    "Hauptstadt": "Kabul",
+    "Einwohner": "39 Millionen",
+    "Sprache": "Paschtunisch, Dari"
+  },
+  "Åland Islands": {
+    "Hauptstadt": "Mariehamn",
+    "Einwohner": "30.000",
+    "Sprache": "Schwedisch"
+  },
+  "Albania": {
+    "Hauptstadt": "Tirana",
+    "Einwohner": "2,9 Millionen",
+    "Sprache": "Albanisch"
+  },
+  "Algeria": {
+    "Hauptstadt": "Algier",
+    "Einwohner": "44 Millionen",
+    "Sprache": "Arabisch, Berber"
+  },
+  "American Samoa": {
+    "Hauptstadt": "Pago Pago",
+    "Einwohner": "55.000",
+    "Sprache": "Englisch, Samoanisch"
+  },
+  "Andorra": {
+    "Hauptstadt": "Andorra la Vella",
+    "Einwohner": "77.000",
+    "Sprache": "Katalanisch"
+  },
+  "Angola": {
+    "Hauptstadt": "Luanda",
+    "Einwohner": "33 Millionen",
+    "Sprache": "Portugiesisch"
+  },
+  "Anguilla": {
+    "Hauptstadt": "The Valley",
+    "Einwohner": "15.000",
+    "Sprache": "Englisch"
+  },
+  "Antarctica": {
+    "Hauptstadt": "Keine",
+    "Einwohner": "1.000 (Forschungsstationen)",
+    "Sprache": "Keine offizielle Sprache"
+  },
+  "Antigua and Barbuda": {
+    "Hauptstadt": "Saint John’s",
+    "Einwohner": "98.000",
+    "Sprache": "Englisch"
+  },
+  "Argentina": {
+    "Hauptstadt": "Buenos Aires",
+    "Einwohner": "45 Millionen",
+    "Sprache": "Spanisch"
+  },
+  "Armenia": {
+    "Hauptstadt": "Jerewan",
+    "Einwohner": "3 Millionen",
+    "Sprache": "Armenisch"
+  },
+  "Aruba": {
+    "Hauptstadt": "Oranjestad",
+    "Einwohner": "106.000",
+    "Sprache": "Niederländisch, Papiamentu"
+  },
+  "Australia": {
+    "Hauptstadt": "Canberra",
+    "Einwohner": "26 Millionen",
+    "Sprache": "Englisch"
+  },
+  "Austria": {
+    "Hauptstadt": "Wien",
+    "Einwohner": "9 Millionen",
+    "Sprache": "Deutsch"
+  },
+  "Azerbaijan": {
+    "Hauptstadt": "Baku",
+    "Einwohner": "10 Millionen",
+    "Sprache": "Aserbaidschanisch"
+  }
+}
