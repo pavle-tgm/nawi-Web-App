@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+  <!-- This is a simplified world map with a few countries for demonstration -->
+  <!-- In a real application, you would use a complete SVG world map with all countries -->
+  
+  <!-- Europe -->
+  <path id="DE" class="country" d="M520,140 L530,130 L540,135 L545,145 L535,155 L525,150 L520,140" title="Germany"></path>
+  <path id="FR" class="country" d="M500,145 L510,140 L520,140 L525,150 L520,160 L510,155 L500,145" title="France"></path>
+  <path id="GB" class="country" d="M490,120 L500,115 L505,125 L495,130 L490,120" title="United Kingdom"></path>
+  <path id="ES" class="country" d="M480,160 L500,145 L510,155 L505,170 L485,175 L480,160" title="Spain"></path>
+  <path id="IT" class="country" d="M525,150 L535,155 L540,170 L530,180 L520,160 L525,150" title="Italy"></path>
+  
+  <!-- North America -->
+  <path id="US" class="country" d="M200,150 L300,150 L300,200 L200,200 L200,150" title="United States"></path>
+  <path id="CA" class="country" d="M200,100 L300,100 L300,150 L200,150 L200,100" title="Canada"></path>
+  <path id="MX" class="country" d="M200,200 L300,200 L300,250 L200,250 L200,200" title="Mexico"></path>
+  
+  <!-- South America -->
+  <path id="BR" class="country" d="M300,300 L350,300 L350,350 L300,350 L300,300" title="Brazil"></path>
+  <path id="AR" class="country" d="M300,350 L350,350 L350,400 L300,400 L300,350" title="Argentina"></path>
+  
+  <!-- Asia -->
+  <path id="CN" class="country" d="M650,150 L750,150 L750,200 L650,200 L650,150" title="China"></path>
+  <path id="IN" class="country" d="M650,200 L700,200 L700,250 L650,250 L650,200" title="India"></path>
+  <path id="JP" class="country" d="M780,150 L790,150 L790,180 L780,180 L780,150" title="Japan"></path>
+  <path id="RU" class="country" d="M550,100 L750,100 L750,150 L550,150 L550,100" title="Russia"></path>
+  
+  <!-- Africa -->
+  <path id="EG" class="country" d="M550,200 L580,200 L580,220 L550,220 L550,200" title="Egypt"></path>
+  <path id="ZA" class="country" d="M550,350 L580,350 L580,380 L550,380 L550,350" title="South Africa"></path>
+  <path id="NG" class="country" d="M520,250 L550,250 L550,280 L520,280 L520,250" title="Nigeria"></path>
+  
+  <!-- Oceania -->
+  <path id="AU" class="country" d="M750,350 L800,350 L800,400 L750,400 L750,350" title="Australia"></path>
+  <path id="NZ" class="country" d="M820,380 L840,380 L840,400 L820,400 L820,380" title="New Zealand"></path>
+</svg>

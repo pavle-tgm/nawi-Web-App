@@ -4,37 +4,33 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/webstorm-icon-logo.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WS playground</title>
+  <title>World Map Explorer</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<header class="logo">
-  <a href="https://www.jetbrains.com/webstorm/">
-    <img src="/webstorm-logo.svg" alt="WebStorm logo" width="344"
-         height="90">
-  </a>
+<header>
+  <h1>World Map Explorer</h1>
+  <p>Click on any country to view information about it</p>
 </header>
 <main id="app">
-  <h1 class="title">
-    Thank you for trying it out. <br /> Your first project is up and running
-    now.
-  </h1>
-  <section class="counter">
-    <div class="counter-info">
-      <p class="counter-text">Counter is</p>
-      <p class="counter-value" id="counter-value"></p>
+  <div class="container">
+    <div id="map-container" class="map-container">
+      <!-- SVG World Map will be loaded here -->
     </div>
-    <div class="counter-interaction">
-      <button id="increaseByOne" type="button">+1</button>
-      <button id="increaseByTwo" type="button">+2</button>
-      <button id="decreaseByOne" type="button">-1</button>
-      <button id="decreaseByTwo" type="button">-2</button>
+    <div id="country-info" class="country-info">
+      <div class="country-info-header">
+        <h2>Country Information</h2>
+        <button id="close-info" class="close-button">×</button>
+      </div>
+      <div id="country-details" class="country-details">
+        <p class="select-country-message">Select a country on the map to view its information</p>
+      </div>
     </div>
-  </section>
+  </div>
 </main>
-<footer class="technologies">
-  <img src="/technologies.svg" alt="List of supported technologies">
+<footer>
+  <p>Data provided by <a href="https://restcountries.com/" target="_blank">REST Countries API</a></p>
 </footer>
-<script type="module" src="/src/main.js"></script>
+<script type="module" src="/src/worldmap.js"></script>
 </body>
 </html>
