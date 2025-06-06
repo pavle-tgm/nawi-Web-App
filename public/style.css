@@ -261,3 +261,75 @@ footer a:hover {
         z-index: 999;
     }
 }
+
+/* === Comparison Modal Styles === */
+.compare-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background: rgba(44, 62, 80, 0.7);
+    transition: background 0.2s;
+}
+.compare-modal-content {
+    background: #fff;
+    margin: 60px auto;
+    padding: 2em 1.5em 1.5em 1.5em;
+    border-radius: 12px;
+    max-width: 700px;
+    min-width: 320px;
+    box-shadow: 0 8px 32px rgba(44,62,80,0.18);
+    position: relative;
+}
+.compare-close {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    font-size: 2em;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.compare-close:hover {
+    color: #e74c3c;
+}
+.compare-selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.compare-selectors select {
+    padding: 0.4em 1em;
+    font-size: 1em;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    background: #f8f8f8;
+    min-width: 140px;
+}
+.compare-table {
+    margin-top: 1em;
+}
+.compare-col {
+    background: #f6fafd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+    padding: 1em 1.2em;
+    margin-bottom: 1em;
+}
+@media (max-width: 700px) {
+    .compare-modal-content {
+        max-width: 98vw;
+        min-width: unset;
+        padding: 1em 0.5em 1.5em 0.5em;
+    }
+    .compare-table {
+        flex-direction: column;
+        gap: 1em;
+    }
+}

@@ -1,48 +1,117 @@
 /* Resetting default styles */
-body {
-    padding: 0;
+body, html {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0d1b2a, #1a2a3a);
+    color: #fff;
     overflow: hidden;
-    font-family: sans-serif;
+    transition: background 0.5s ease;
 }
+
+/* Add subtle background pattern */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+            radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+            radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Add subtle glow effect */
+.page::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.05) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+#globe-3d {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
 
 /* Page container */
 .page {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    position: relative;
-    z-index: 3;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-/* Container for the globe */
-.globe-wrapper {
-    margin-top: 9vh; /* Adjust as needed */
-    position: relative;
-}
-
-/* Info overlay */
-.info {
+.page::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    text-align: center;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    pointer-events: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(0, 229, 255, 0.1)" stroke-width="2"/></svg>') repeat;
+    opacity: 0.5;
+    z-index: -1;
 }
 
-.info span {
+/* Container for the globe */
+.globe-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.globe-wrapper:hover {
+    transform: scale(1.05);
+}
+
+canvas {
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.info {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background: rgba(26, 42, 58, 0.85);
+    padding: 20px 30px;
+    border-radius: 12px;
+    pointer-events: none;
+    text-align: left;
+    max-width: 300px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-left: 4px solid #00e5ff;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    font-size: 1.5em;
     font-weight: bold;
-    text-shadow: 0 0 5px #ffffff; /* Adding text shadow for better visibility */
-    padding: .2em .6em;
-    border-radius: 2px;
-    font-size: 2em;
+}
+
+.info:hover {
+    opacity: 0.8;
 }
 
 /* Prevent selection and provide better touch interaction */
@@ -55,6 +124,8 @@ canvas {
     -ms-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
 /* Hide SVG */
@@ -79,4 +150,393 @@ svg {
     --focus-color: rgba(255, 255, 255, .4);
     --hover-color: rgba(255, 255, 255, .5);
     --font-family: monospace; /* Define font family */
+}
+
+.country-info {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    max-width: 280px;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 0.95em;
+    display: none;
+    z-index: 10;
+}
+
+.country-info.active {
+    display: block;
+}
+
+#country-details {
+    margin-top: 10px;
+}
+
+#close-info {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+#country-info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+    max-width: 300px;
+    z-index: 999;
+}
+
+#close-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) translateX(100%);
+    background: rgba(26, 42, 58, 0.95);
+    color: white;
+    padding: 35px;
+    border-radius: 16px 0 0 16px;
+    box-shadow: -8px 0 32px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    width: 450px;
+    max-width: 45%;
+    height: auto;
+    max-height: 85vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    overflow-y: auto;
+    backdrop-filter: blur(15px);
+    border-left: 4px solid #00e5ff;
+}
+
+.popup.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(-50%) translateX(0);
+}
+
+.popup-content {
+    position: relative;
+}
+
+#popup-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: #00e5ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#popup-close:hover {
+    color: #ffffff;
+    background-color: rgba(0, 229, 255, 0.2);
+    transform: scale(1.1);
+}
+
+#popup-text h3 {
+    color: #00e5ff;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+#popup-text p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#popup-text strong {
+    color: #00e5ff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Climate data section styles */
+.climate-data-section {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.climate-data-section h4 {
+    color: #00e5ff;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.climate-data {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.climate-stat {
+    background: rgba(0, 229, 255, 0.05);
+    padding: 12px 15px;
+    border-radius: 8px;
+    border-left: 3px solid #00e5ff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.climate-stat:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.climate-stat p {
+    margin: 0;
+}
+
+/* Loading indicator */
+.loading-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.loading-indicator p {
+    position: relative;
+    padding-left: 30px;
+}
+
+.loading-indicator p:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(0, 229, 255, 0.3);
+    border-top: 2px solid #00e5ff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(360deg); }
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 768px) {
+    .climate-data {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Compare Button and Modal Styles */
+.compare-section {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.compare-btn {
+    padding: 12px 28px;
+    font-size: 1.2em;
+    background: #00e5ff;
+    color: #0d1b2a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.compare-btn:hover {
+    background: #00b3cc;
+    transform: translateY(-2px);
+}
+
+.compare-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background: rgba(13, 27, 42, 0.85);
+    animation: fadeIn 0.3s ease;
+}
+
+.compare-modal-content {
+    background: #1a2a3a;
+    margin: 8% auto;
+    padding: 30px 40px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    position: relative;
+    color: #fff;
+    animation: slideIn 0.3s ease;
+}
+
+.compare-close {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    font-size: 2em;
+    cursor: pointer;
+    color: #00e5ff;
+    transition: color 0.3s ease;
+}
+
+.compare-close:hover {
+    color: #00b3cc;
+}
+
+.compare-dropdowns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.compare-dropdowns select {
+    padding: 8px 12px;
+    font-size: 1em;
+    border-radius: 6px;
+    border: 1px solid #00e5ff;
+    background: #0d1b2a;
+    color: #fff;
+    transition: border 0.3s ease;
+}
+
+.compare-dropdowns select:hover {
+    border-color: #00b3cc;
+}
+
+.compare-submit {
+    padding: 8px 18px;
+    font-size: 1em;
+    background: #00e5ff;
+    color: #0d1b2a;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.compare-submit:hover {
+    background: #00b3cc;
+    transform: translateY(-2px);
+}
+
+.compare-results {
+    margin-top: 18px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* CO2 Calculator Styles */
+.co2-calculator {
+    position: fixed;
+    left: 20px;
+    top: calc(50% + 60px); /* Position it below the compare button */
+    background: rgba(26, 42, 58, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    z-index: 100;
+    width: 300px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    border-left: 4px solid #00e5ff;
+}
+
+.co2-calculator h2 {
+    color: #00e5ff;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.co2-calculator p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.country-contribution {
+    margin-top: 15px;
+}
+
+.country-contribution label {
+    display: block;
+    margin-bottom: 8px;
+    color: #00e5ff;
+}
+
+.country-contribution select {
+    width: 100%;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #00e5ff;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.country-contribution select:focus {
+    outline: none;
+    border-color: #00b3cc;
 }

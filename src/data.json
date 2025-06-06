@@ -2,7 +2,10 @@
   "Afghanistan": {
     "Hauptstadt": "Kabul",
     "Einwohner": "39 Millionen",
-    "Sprache": "Paschtunisch, Dari"
+    "Sprache": "Paschtunisch, Dari",
+    "CO2": "0.3 Tonnen pro Kopf (2021)",
+    "Renewable": "65.0% des Gesamtenergieverbrauchs (2021)",
+    "Temperature": "+1.1°C seit 1880 (2021)"
   },
   "Åland Islands": {
     "Hauptstadt": "Mariehamn",
@@ -12,7 +15,10 @@
   "Albania": {
     "Hauptstadt": "Tirana",
     "Einwohner": "2,9 Millionen",
-    "Sprache": "Albanisch"
+    "Sprache": "Albanisch",
+    "CO2": "1.7 Tonnen pro Kopf (2022)",
+    "Renewable": "37.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.3°C seit 1880 (2022)"
   },
   "Algeria": {
     "Hauptstadt": "Algier",
@@ -27,7 +33,10 @@
   "Andorra": {
     "Hauptstadt": "Andorra la Vella",
     "Einwohner": "77.000",
-    "Sprache": "Katalanisch"
+    "Sprache": "Katalanisch",
+    "CO2": "N/A",
+    "Renewable": "N/A",
+    "Temperature": "N/A"
   },
   "Angola": {
     "Hauptstadt": "Luanda",
@@ -45,7 +54,7 @@
     "Sprache": "Keine offizielle Sprache"
   },
   "Antigua and Barbuda": {
-    "Hauptstadt": "Saint John’s",
+    "Hauptstadt": "Saint John's",
     "Einwohner": "98.000",
     "Sprache": "Englisch"
   },
@@ -72,11 +81,616 @@
   "Austria": {
     "Hauptstadt": "Wien",
     "Einwohner": "9 Millionen",
-    "Sprache": "Deutsch"
+    "Sprache": "Deutsch",
+    "CO2": "6.8 Tonnen pro Kopf (2022)",
+    "Renewable": "80.1% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+2.0°C seit 1880 (2022)"
   },
   "Azerbaijan": {
     "Hauptstadt": "Baku",
     "Einwohner": "10 Millionen",
     "Sprache": "Aserbaidschanisch"
+  },
+  "Bahamas": {
+    "Hauptstadt": "Nassau",
+    "Einwohner": "393.000",
+    "Sprache": "Englisch"
+  },
+  "Bahrain": {
+    "Hauptstadt": "Manama",
+    "Einwohner": "1,7 Millionen",
+    "Sprache": "Arabisch"
+  },
+  "Bangladesh": {
+    "Hauptstadt": "Dhaka",
+    "Einwohner": "165 Millionen",
+    "Sprache": "Bengalisch"
+  },
+  "Barbados": {
+    "Hauptstadt": "Bridgetown",
+    "Einwohner": "287.000",
+    "Sprache": "Englisch"
+  },
+  "Belarus": {
+    "Hauptstadt": "Minsk",
+    "Einwohner": "9,4 Millionen",
+    "Sprache": "Belarussisch, Russisch",
+    "CO2": "6.4 Tonnen pro Kopf (2022)",
+    "Renewable": "7.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.3°C seit 1880 (2022)"
+  },
+  "Belgium": {
+    "Hauptstadt": "Brüssel",
+    "Einwohner": "11,5 Millionen",
+    "Sprache": "Niederländisch, Französisch, Deutsch",
+    "CO2": "8.0 Tonnen pro Kopf (2022)",
+    "Renewable": "13.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.8°C seit 1880 (2022)"
+  },
+  "Belize": {
+    "Hauptstadt": "Belmopan",
+    "Einwohner": "398.000",
+    "Sprache": "Englisch"
+  },
+  "Benin": {
+    "Hauptstadt": "Porto-Novo",
+    "Einwohner": "12 Millionen",
+    "Sprache": "Französisch"
+  },
+  "Bermuda": {
+    "Hauptstadt": "Hamilton",
+    "Einwohner": "64.000",
+    "Sprache": "Englisch"
+  },
+  "Bhutan": {
+    "Hauptstadt": "Thimphu",
+    "Einwohner": "771.000",
+    "Sprache": "Dzongkha"
+  },
+  "Bolivia": {
+    "Hauptstadt": "Sucre",
+    "Einwohner": "11,7 Millionen",
+    "Sprache": "Spanisch, Quechua, Aymara"
+  },
+  "Bosnia and Herzegovina": {
+    "Hauptstadt": "Sarajevo",
+    "Einwohner": "3,3 Millionen",
+    "Sprache": "Bosnisch, Kroatisch, Serbisch",
+    "CO2": "5.7 Tonnen pro Kopf (2022)",
+    "Renewable": "35.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Botswana": {
+    "Hauptstadt": "Gaborone",
+    "Einwohner": "2,3 Millionen",
+    "Sprache": "Englisch, Setswana"
+  },
+  "Brazil": {
+    "Hauptstadt": "Brasília",
+    "Einwohner": "213 Millionen",
+    "Sprache": "Portugiesisch"
+  },
+  "British Virgin Islands": {
+    "Hauptstadt": "Road Town",
+    "Einwohner": "30.000",
+    "Sprache": "Englisch"
+  },
+  "Brunei": {
+    "Hauptstadt": "Bandar Seri Begawan",
+    "Einwohner": "437.000",
+    "Sprache": "Malaiisch"
+  },
+  "Bulgaria": {
+    "Hauptstadt": "Sofia",
+    "Einwohner": "6,9 Millionen",
+    "Sprache": "Bulgarisch",
+    "CO2": "6.5 Tonnen pro Kopf (2022)",
+    "Renewable": "19.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Burkina Faso": {
+    "Hauptstadt": "Ouagadougou",
+    "Einwohner": "21 Millionen",
+    "Sprache": "Französisch"
+  },
+  "Burundi": {
+    "Hauptstadt": "Gitega",
+    "Einwohner": "12 Millionen",
+    "Sprache": "Kirundi, Französisch"
+  },
+  "Cambodia": {
+    "Hauptstadt": "Phnom Penh",
+    "Einwohner": "16,7 Millionen",
+    "Sprache": "Khmer"
+  },
+  "Cameroon": {
+    "Hauptstadt": "Yaoundé",
+    "Einwohner": "27 Millionen",
+    "Sprache": "Englisch, Französisch"
+  },
+  "Canada": {
+    "Hauptstadt": "Ottawa",
+    "Einwohner": "38 Millionen",
+    "Sprache": "Englisch, Französisch",
+    "CO2": "14.2 Tonnen pro Kopf (2022)",
+    "Renewable": "65.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.7°C seit 1880 (2022)"
+  },
+  "Cape Verde": {
+    "Hauptstadt": "Praia",
+    "Einwohner": "556.000",
+    "Sprache": "Portugiesisch"
+  },
+  "Cayman Islands": {
+    "Hauptstadt": "George Town",
+    "Einwohner": "65.000",
+    "Sprache": "Englisch"
+  },
+  "Central African Republic": {
+    "Hauptstadt": "Bangui",
+    "Einwohner": "4,8 Millionen",
+    "Sprache": "Französisch, Sango"
+  },
+  "Chad": {
+    "Hauptstadt": "N'Djamena",
+    "Einwohner": "16 Millionen",
+    "Sprache": "Französisch, Arabisch"
+  },
+  "Chile": {
+    "Hauptstadt": "Santiago",
+    "Einwohner": "19,5 Millionen",
+    "Sprache": "Spanisch"
+  },
+  "China": {
+    "Hauptstadt": "Peking",
+    "Einwohner": "1,4 Milliarden",
+    "Sprache": "Chinesisch",
+    "CO2": "7.6 Tonnen pro Kopf (2022)",
+    "Renewable": "27.4% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Christmas Island": {
+    "Hauptstadt": "Flying Fish Cove",
+    "Einwohner": "1.800",
+    "Sprache": "Englisch"
+  },
+  "Cocos (Keeling) Islands": {
+    "Hauptstadt": "West Island",
+    "Einwohner": "600",
+    "Sprache": "Englisch"
+  },
+  "Colombia": {
+    "Hauptstadt": "Bogotá",
+    "Einwohner": "51 Millionen",
+    "Sprache": "Spanisch"
+  },
+  "Comoros": {
+    "Hauptstadt": "Moroni",
+    "Einwohner": "869.000",
+    "Sprache": "Arabisch, Französisch, Komorisch"
+  },
+  "Congo": {
+    "Hauptstadt": "Brazzaville",
+    "Einwohner": "5,5 Millionen",
+    "Sprache": "Französisch"
+  },
+  "Cook Islands": {
+    "Hauptstadt": "Avarua",
+    "Einwohner": "17.000",
+    "Sprache": "Englisch, Cook Islands Māori"
+  },
+  "Costa Rica": {
+    "Hauptstadt": "San José",
+    "Einwohner": "5,1 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "1.5 Tonnen pro Kopf (2022)",
+    "Renewable": "99.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.2°C seit 1880 (2022)"
+  },
+  "Croatia": {
+    "Hauptstadt": "Zagreb",
+    "Einwohner": "4 Millionen",
+    "Sprache": "Kroatisch",
+    "CO2": "4.3 Tonnen pro Kopf (2022)",
+    "Renewable": "28.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Cuba": {
+    "Hauptstadt": "Havanna",
+    "Einwohner": "11,3 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "2.5 Tonnen pro Kopf (2022)",
+    "Renewable": "4.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.1°C seit 1880 (2022)"
+  },
+  "Curaçao": {
+    "Hauptstadt": "Willemstad",
+    "Einwohner": "163.000",
+    "Sprache": "Niederländisch, Papiamentu"
+  },
+  "Cyprus": {
+    "Hauptstadt": "Nikosia",
+    "Einwohner": "1,2 Millionen",
+    "Sprache": "Griechisch, Türkisch"
+  },
+  "Czech Republic": {
+    "Hauptstadt": "Prag",
+    "Einwohner": "10,7 Millionen",
+    "Sprache": "Tschechisch",
+    "CO2": "9.6 Tonnen pro Kopf (2022)",
+    "Renewable": "17.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.7°C seit 1880 (2022)"
+  },
+  "Democratic Republic of the Congo": {
+    "Hauptstadt": "Kinshasa",
+    "Einwohner": "89 Millionen",
+    "Sprache": "Französisch"
+  },
+  "Denmark": {
+    "Hauptstadt": "Kopenhagen",
+    "Einwohner": "5,8 Millionen",
+    "Sprache": "Dänisch",
+    "CO2": "5.3 Tonnen pro Kopf (2022)",
+    "Renewable": "39.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.7°C seit 1880 (2022)"
+  },
+  "Djibouti": {
+    "Hauptstadt": "Djibouti",
+    "Einwohner": "988.000",
+    "Sprache": "Arabisch, Französisch"
+  },
+  "Dominica": {
+    "Hauptstadt": "Roseau",
+    "Einwohner": "72.000",
+    "Sprache": "Englisch"
+  },
+  "Dominican Republic": {
+    "Hauptstadt": "Santo Domingo",
+    "Einwohner": "10,8 Millionen",
+    "Sprache": "Spanisch"
+  },
+  "Germany": {
+    "Hauptstadt": "Berlin",
+    "Einwohner": "83 Millionen",
+    "Sprache": "Deutsch",
+    "CO2": "8.1 Tonnen pro Kopf (2022)",
+    "Renewable": "48.3% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.6°C seit 1880 (2022)"
+  },
+  "United States": {
+    "Hauptstadt": "Washington, D.C.",
+    "Einwohner": "332 Millionen",
+    "Sprache": "Englisch",
+    "CO2": "14.4 Tonnen pro Kopf (2022)",
+    "Renewable": "13.1% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.2°C seit 1880 (2022)"
+  },
+  "France": {
+    "Hauptstadt": "Paris",
+    "Einwohner": "67 Millionen",
+    "Sprache": "Französisch",
+    "CO2": "4.5 Tonnen pro Kopf (2022)",
+    "Renewable": "25.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.7°C seit 1880 (2022)"
+  },
+  "Italy": {
+    "Hauptstadt": "Rom",
+    "Einwohner": "60 Millionen",
+    "Sprache": "Italienisch",
+    "CO2": "5.6 Tonnen pro Kopf (2022)",
+    "Renewable": "37.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Spain": {
+    "Hauptstadt": "Madrid",
+    "Einwohner": "47 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "5.0 Tonnen pro Kopf (2022)",
+    "Renewable": "47.5% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.6°C seit 1880 (2022)"
+  },
+  "United Kingdom": {
+    "Hauptstadt": "London",
+    "Einwohner": "67 Millionen",
+    "Sprache": "Englisch",
+    "CO2": "5.2 Tonnen pro Kopf (2022)",
+    "Renewable": "42.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.3°C seit 1880 (2022)"
+  },
+  "Switzerland": {
+    "Hauptstadt": "Bern",
+    "Einwohner": "8,7 Millionen",
+    "Sprache": "Deutsch, Französisch, Italienisch, Rätoromanisch",
+    "CO2": "4.1 Tonnen pro Kopf (2022)",
+    "Renewable": "62.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+2.0°C seit 1880 (2022)"
+  },
+  "Netherlands": {
+    "Hauptstadt": "Amsterdam",
+    "Einwohner": "17,5 Millionen",
+    "Sprache": "Niederländisch",
+    "CO2": "8.3 Tonnen pro Kopf (2022)",
+    "Renewable": "15.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.7°C seit 1880 (2022)"
+  },
+  "Sweden": {
+    "Hauptstadt": "Stockholm",
+    "Einwohner": "10,5 Millionen",
+    "Sprache": "Schwedisch",
+    "CO2": "3.5 Tonnen pro Kopf (2022)",
+    "Renewable": "56.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.9°C seit 1880 (2022)"
+  },
+  "Norway": {
+    "Hauptstadt": "Oslo",
+    "Einwohner": "5,4 Millionen",
+    "Sprache": "Norwegisch",
+    "CO2": "6.7 Tonnen pro Kopf (2022)",
+    "Renewable": "74.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+2.0°C seit 1880 (2022)"
+  },
+  "Finland": {
+    "Hauptstadt": "Helsinki",
+    "Einwohner": "5,5 Millionen",
+    "Sprache": "Finnisch, Schwedisch",
+    "CO2": "8.5 Tonnen pro Kopf (2022)",
+    "Renewable": "42.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+2.0°C seit 1880 (2022)"
+  },
+  "Poland": {
+    "Hauptstadt": "Warschau",
+    "Einwohner": "37,7 Millionen",
+    "Sprache": "Polnisch",
+    "CO2": "7.9 Tonnen pro Kopf (2022)",
+    "Renewable": "16.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.6°C seit 1880 (2022)"
+  },
+  "Hungary": {
+    "Hauptstadt": "Budapest",
+    "Einwohner": "9,6 Millionen",
+    "Sprache": "Ungarisch",
+    "CO2": "5.2 Tonnen pro Kopf (2022)",
+    "Renewable": "13.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Portugal": {
+    "Hauptstadt": "Lissabon",
+    "Einwohner": "10,3 Millionen",
+    "Sprache": "Portugiesisch",
+    "CO2": "4.2 Tonnen pro Kopf (2022)",
+    "Renewable": "60.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Ireland": {
+    "Hauptstadt": "Dublin",
+    "Einwohner": "5 Millionen",
+    "Sprache": "Irisch, Englisch",
+    "CO2": "7.1 Tonnen pro Kopf (2022)",
+    "Renewable": "13.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.3°C seit 1880 (2022)"
+  },
+  "Greece": {
+    "Hauptstadt": "Athen",
+    "Einwohner": "10,7 Millionen",
+    "Sprache": "Griechisch",
+    "CO2": "6.2 Tonnen pro Kopf (2022)",
+    "Renewable": "22.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Romania": {
+    "Hauptstadt": "Bukarest",
+    "Einwohner": "19 Millionen",
+    "Sprache": "Rumänisch",
+    "CO2": "3.7 Tonnen pro Kopf (2022)",
+    "Renewable": "25.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Serbia": {
+    "Hauptstadt": "Belgrad",
+    "Einwohner": "6,7 Millionen",
+    "Sprache": "Serbisch",
+    "CO2": "6.2 Tonnen pro Kopf (2022)",
+    "Renewable": "27.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Slovakia": {
+    "Hauptstadt": "Bratislava",
+    "Einwohner": "5,4 Millionen",
+    "Sprache": "Slowakisch",
+    "CO2": "6.7 Tonnen pro Kopf (2022)",
+    "Renewable": "17.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.6°C seit 1880 (2022)"
+  },
+  "Slovenia": {
+    "Hauptstadt": "Ljubljana",
+    "Einwohner": "2,1 Millionen",
+    "Sprache": "Slowenisch",
+    "CO2": "6.0 Tonnen pro Kopf (2022)",
+    "Renewable": "22.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.6°C seit 1880 (2022)"
+  },
+  "Ukraine": {
+    "Hauptstadt": "Kiew",
+    "Einwohner": "41 Millionen",
+    "Sprache": "Ukrainisch",
+    "CO2": "4.5 Tonnen pro Kopf (2022)",
+    "Renewable": "8.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Montenegro": {
+    "Hauptstadt": "Podgorica",
+    "Einwohner": "620.000",
+    "Sprache": "Montenegrinisch",
+    "CO2": "4.2 Tonnen pro Kopf (2022)",
+    "Renewable": "45.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Luxembourg": {
+    "Hauptstadt": "Luxemburg",
+    "Einwohner": "640.000",
+    "Sprache": "Luxemburgisch, Französisch, Deutsch",
+    "CO2": "15.5 Tonnen pro Kopf (2022)",
+    "Renewable": "11.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.7°C seit 1880 (2022)"
+  },
+  "Iceland": {
+    "Hauptstadt": "Reykjavík",
+    "Einwohner": "366.000",
+    "Sprache": "Isländisch",
+    "CO2": "3.2 Tonnen pro Kopf (2022)",
+    "Renewable": "85.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+2.0°C seit 1880 (2022)"
+  },
+  "Malta": {
+    "Hauptstadt": "Valletta",
+    "Einwohner": "514.000",
+    "Sprache": "Maltesisch, Englisch",
+    "CO2": "4.1 Tonnen pro Kopf (2022)",
+    "Renewable": "10.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Liechtenstein": {
+    "Hauptstadt": "Vaduz",
+    "Einwohner": "39.000",
+    "Sprache": "Deutsch",
+    "CO2": "N/A",
+    "Renewable": "N/A",
+    "Temperature": "N/A"
+  },
+  "San Marino": {
+    "Hauptstadt": "San Marino",
+    "Einwohner": "34.000",
+    "Sprache": "Italienisch",
+    "CO2": "N/A",
+    "Renewable": "N/A",
+    "Temperature": "N/A"
+  },
+  "Monaco": {
+    "Hauptstadt": "Monaco",
+    "Einwohner": "39.000",
+    "Sprache": "Französisch",
+    "CO2": "N/A",
+    "Renewable": "N/A",
+    "Temperature": "N/A"
+  },
+  "Vatican City": {
+    "Hauptstadt": "Vatikanstadt",
+    "Einwohner": "800",
+    "Sprache": "Italienisch, Latein",
+    "CO2": "N/A",
+    "Renewable": "N/A",
+    "Temperature": "N/A"
+  },
+  "North Macedonia": {
+    "Hauptstadt": "Skopje",
+    "Einwohner": "2,1 Millionen",
+    "Sprache": "Mazedonisch",
+    "CO2": "4.5 Tonnen pro Kopf (2022)",
+    "Renewable": "18.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Moldova": {
+    "Hauptstadt": "Chisinau",
+    "Einwohner": "2,6 Millionen",
+    "Sprache": "Rumänisch",
+    "CO2": "1.7 Tonnen pro Kopf (2022)",
+    "Renewable": "15.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.3°C seit 1880 (2022)"
+  },
+  "Lithuania": {
+    "Hauptstadt": "Vilnius",
+    "Einwohner": "2,8 Millionen",
+    "Sprache": "Litauisch",
+    "CO2": "4.2 Tonnen pro Kopf (2022)",
+    "Renewable": "27.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
+  },
+  "Latvia": {
+    "Hauptstadt": "Riga",
+    "Einwohner": "1,9 Millionen",
+    "Sprache": "Lettisch",
+    "CO2": "3.7 Tonnen pro Kopf (2022)",
+    "Renewable": "40.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.6°C seit 1880 (2022)"
+  },
+  "Estonia": {
+    "Hauptstadt": "Tallinn",
+    "Einwohner": "1,3 Millionen",
+    "Sprache": "Estnisch",
+    "CO2": "12.0 Tonnen pro Kopf (2022)",
+    "Renewable": "30.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.7°C seit 1880 (2022)"
+  },
+  "Honduras": {
+    "Hauptstadt": "Tegucigalpa",
+    "Einwohner": "10,1 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "1.2 Tonnen pro Kopf (2022)",
+    "Renewable": "55.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.3°C seit 1880 (2022)"
+  },
+  "El Salvador": {
+    "Hauptstadt": "San Salvador",
+    "Einwohner": "6,5 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "1.0 Tonnen pro Kopf (2022)",
+    "Renewable": "32.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.2°C seit 1880 (2022)"
+  },
+  "Nicaragua": {
+    "Hauptstadt": "Managua",
+    "Einwohner": "6,8 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "0.8 Tonnen pro Kopf (2022)",
+    "Renewable": "55.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.3°C seit 1880 (2022)"
+  },
+  "Panama": {
+    "Hauptstadt": "Panama-Stadt",
+    "Einwohner": "4,3 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "2.6 Tonnen pro Kopf (2022)",
+    "Renewable": "65.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.1°C seit 1880 (2022)"
+  },
+  "Jamaica": {
+    "Hauptstadt": "Kingston",
+    "Einwohner": "2,9 Millionen",
+    "Sprache": "Englisch",
+    "CO2": "2.7 Tonnen pro Kopf (2022)",
+    "Renewable": "12.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.1°C seit 1880 (2022)"
+  },
+  "Haiti": {
+    "Hauptstadt": "Port-au-Prince",
+    "Einwohner": "11,4 Millionen",
+    "Sprache": "Französisch, Haitianisch",
+    "CO2": "0.3 Tonnen pro Kopf (2022)",
+    "Renewable": "60.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.2°C seit 1880 (2022)"
+  },
+  "Mexico": {
+    "Hauptstadt": "Mexiko-Stadt",
+    "Einwohner": "126 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "3.6 Tonnen pro Kopf (2022)",
+    "Renewable": "22.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.4°C seit 1880 (2022)"
+  },
+  "Guatemala": {
+    "Hauptstadt": "Guatemala-Stadt",
+    "Einwohner": "17,9 Millionen",
+    "Sprache": "Spanisch",
+    "CO2": "1.1 Tonnen pro Kopf (2022)",
+    "Renewable": "41.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.2°C seit 1880 (2022)"
+  },
+  "Japan": {
+    "Hauptstadt": "Tokio",
+    "Einwohner": "125 Millionen",
+    "Sprache": "Japanisch",
+    "CO2": "8.7 Tonnen pro Kopf (2022)",
+    "Renewable": "20.0% des Gesamtenergieverbrauchs (2022)",
+    "Temperature": "+1.5°C seit 1880 (2022)"
   }
 }

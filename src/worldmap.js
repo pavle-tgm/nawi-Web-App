@@ -197,3 +197,26 @@ function displayCountryInfo(country) {
 
 // Initialize the application when the DOM is loaded
 document.addEventListener('DOMContentLoaded', initApp);
+
+// Dynamisch die SVG laden und ins DOM einfügen
+fetch('world.svg')
+  .then((res) => res.text())
+  .then((svgText) => {
+    document.getElementById('map-container').innerHTML = svgText;
+
+    // Interaktivität hinzufügen: z. B. Hover und Klick
+    const countries = document.querySelectorAll('#map-container svg path');
+
+    countries.forEach((country) => {
+      country.style.cursor = 'pointer';
+      country.addEventListener('mouseenter', () => {
+        country.style.fill = '#ffcc00';
+      });
+      country.addEventListener('mouseleave', () => {
+        country.style.fill = '';
+      });
+      country.addEventListener('click', () => {
+        alert(`Land: ${country.getAttribute('title') || country.id}`);
+      });
+    });
+  });
